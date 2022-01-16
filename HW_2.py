@@ -1,19 +1,41 @@
-# Python_2 HW_2
-#
-# Arithmetic
-#
-#  1. Создать переменную item_1 типа integer.
-#  2. Создать переменную item_2 типа integer.
-#  3. Создать переменную result_sum в которой вы суммируете item_1 и item_2.
-#  4. Вывести result_sum в консоль.
-#  5. Создать переменную result_subtr в которой вы вычитаете большую по значению переменную из меньшей по значению.
-#  6. Вывести result_subtr в консоль.
-#  7. Создать переменную result_multi в которой вы умножаете item_1 на item_2.
-#  8. Вывести result_multi в консоль.
-#  9. Создать переменную result_exp в которой вы item_1 возводите в степень item_2.
-#  10. Вывести result_exp в консоль.
-#  11. Создать переменную result_m_exp в которой вы item_1 возводите в степень item_2 используя библиотеку math.
-#  12. Вывести result_m_exp в консоль.
+import math
+
+# Создать переменную item_1 типа integer.
+item_1 = 4
+
+# Создать переменную item_2 типа integer.
+item_2 = 24
+
+# Создать переменную result_sum в которой вы суммируете item_1 и item_2.
+result_sum = item_1 + item_2
+
+# Вывести result_sum в консоль.
+print('result_sum = ', result_sum)
+
+# Создать переменную result_subtr в которой вы вычитаете большую по значению переменную из меньшей по значению
+result_subtr = item_2 - item_1
+
+# Вывести result_subtr в консоль.
+print('result_subtr = ', result_subtr)
+
+# Создать переменную result_multi в которой вы умножаете item_1 на item_2.
+result_multi = item_1 * item_2
+
+# Вывести result_multi в консоль.
+print('result_multi = ', result_multi)
+
+# Создать переменную result_exp в которой вы item_1 возводите в степень item_2.
+result_exp = item_1 ** item_2
+
+# Вывести result_exp в консоль.
+print('result_exp = ', result_exp)
+
+# Создать переменную result_m_exp в которой вы item_1 возводите в степень item_2 используя библиотеку math.
+result_m_exp = math.pow(item_1, item_2)
+
+# Вывести result_m_exp в консоль.
+print('result_m_exp = ', result_m_exp)
+
 #  13. Создать переменную result_s_root в которой вы найдёте квадратный корень любой из переменной item
 #  14. Вывести result_s_root в консоль.
 #  15. Создать переменную result_m_s_root в которой вы найдёте квадратный корень любой из переменной item используя библиотеку math.
