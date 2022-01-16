@@ -156,33 +156,34 @@ b_item_f = False
 b_item_result_sum = b_item_t + b_item_f
 
 # Вывести b_item_relult_sum в консоль.
-print(b_item_result_sum)
+print('b_item_result_sum = ', b_item_result_sum)
 
 # Создать переменную b_item_relult_subtr и присвоить разницу b_item_t и b_item_f
-
+b_item_result_subtr = b_item_t - b_item_f
 
 # Вывести b_item_relult_subtr в консоль.
-
+print('b_item_result_subtr = ', b_item_result_subtr)
 
 # Создать переменную b_item_relult_multi и присвоить умножение b_item_t и b_item_f
-
+b_item_result_multi = b_item_t * b_item_f
 
 # Вывести b_item_relult_multi в консоль.
+print('b_item_result_multi = ', b_item_result_multi)
 
-
-# Создать переменную b_item_relult_division и присвоить деление b_item_t и b_item_f
-
-
-# Вывести b_item_relult_division в консоль. (Получить ошибку)
-
+# # Создать переменную b_item_relult_division и присвоить деление b_item_t и b_item_f
+# b_item_relult_division = b_item_t / b_item_f
+#
+# # Вывести b_item_relult_division в консоль. (Получить ошибку)
+# print('b_item_relult_division = ', b_item_relult_division)
 
 # Создать переменную b_item_1_int и присвоить явное приведение b_item_t к int
-
+b_item_1_int = int(b_item_t)
 
 # Вывести b_item_1_int в консоль.
+print('b_item_1_int = ', b_item_1_int)
 
-
-# Создать переменную b_item_2_int и присвоить явное приведение b_item_2 к int
-
+# Создать переменную b_item_2_int и присвоить явное приведение b_item_f к int
+b_item_2_int = int(b_item_f)
 
 # Вывести b_item_2_int в консоль.
+print('b_item_2_int = ', b_item_2_int)
