@@ -54,11 +54,11 @@ result_mp_s_root = math.pow(item_1, 0.5)
 # Вывести result_mp_s_root в консоль.
 print('result_mp_s_root', result_mp_s_root)
 
-# #  19. Присвоить переменной item_1 odd значение
-# item_1 = 'odd'
-#
-# #  20. Присвоить переменной item_2 even значение
-# item_2 = 'even'
+#  19. Присвоить переменной item_1 odd /нечетный/ значение
+item_1 = 7
+
+#  20. Присвоить переменной item_2 even /четный/ значение
+item_2 = 2
 
 # Создать переменную result_division в которой вы разделите item_1 на item_2.
 result_division = item_1 / item_2
