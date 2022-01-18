@@ -1,16 +1,29 @@
 
 
 print('Введите валюту, из которой будет перевод: usd, eur, rub, byn')
-valuta_is = input()
-print('Ваша валюта - ', valuta_is)
+while True:
+    valuta_is = input()
+    if len(valuta_is) == 3:
+        print('Ваша валюта - ', valuta_is)
+        break
+    else:
+        print('Введите 3 символа')
 
+######################
 print('Введите сумму')
 sum_val = input()
 print('Сумма = ', sum_val)
 
+######################
 print('Введите в какую валюту будет перевод: usd, eur, rub, byn')
-valuta_v = input()
-print('Итоговая валюта - ', valuta_v)
+while True:
+    valuta_v = input()
+    if len(valuta_v) == 3:
+        print('Ваша валюта - ', valuta_v)
+        break
+    else:
+        print('Введите 3 символа')
+
 
 usd_item = 'usd'
 eur_item = 'eur'
