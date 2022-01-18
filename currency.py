@@ -51,20 +51,29 @@ elif valuta_is == usd_item:
 #из евро в другие валюты
 elif valuta_is == eur_item:
     if valuta_v == byn_item:
-
+        a_2 = int(sum_val) * 2.95
+        print('byn = ', a_2)
     if valuta_v == rub_item:
-
+        b_2 = int(sum_val) * 86.83
+        print('rub = ', b_2)
     if valuta_v == usd_item:
-
+        c_2 = int(sum_val) * 1.14
+        print('usd = ', c_2)
     if valuta_v == eur_item:
         d_2 = int(sum_val) * 1
         print('eur = ', d_2)
 
 #из рос р в другие валюты
 elif valuta_is == rub_item:
-    if valuta_v == byn_item
-    if valuta_v == usd_item
-    if valuta_v == eur_item
+    if valuta_v == byn_item:
+        a_3 = int(sum_val) * 0.034
+        print('byn = ', a_3)
+    if valuta_v == usd_item:
+        b_3 = int(sum_val) * 0.013
+        print('usd = ', b_3)
+    if valuta_v == eur_item:
+        c_3 = int(sum_val) * 0.012
+        print('eur = ', c_3)
     if valuta_v == rub_item:
         d_3 = int(sum_val) * 1
         print('rub = ', d_3)
